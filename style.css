@@ -58,6 +58,11 @@ button {
   bottom: 20px;
 }
 
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #f5e174, #b18249);
+}
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
